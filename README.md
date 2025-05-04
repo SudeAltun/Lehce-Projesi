@@ -46,10 +46,12 @@ işlemi ayrı ayrı yapılacaktır.
 - json
 - fitz
 - sklearn
-- gensim.models
+- gensim
 - numpy
-- matplotlib.pyplot
+- matplotlib
 - nltk
 - re
+- collections
+
 
 
