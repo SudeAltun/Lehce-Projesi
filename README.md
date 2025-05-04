@@ -54,6 +54,27 @@ işlemi ayrı ayrı yapılacaktır.
 - collections
 - bs4
 
+## ⚙️ Modelin Oluşturulması (Adım Adım)
+
+### 1. Reponun Klonlanması
+
+```bash
+git clone https://github.com/SudeAltun/Lehce-Projesi.git
+cd Lehce-Projesi
+```
+
+### 2. Sanal Ortam Oluştur (Opsiyonel fakat önerilir)
+
+```bash
+python -m venv venv
+source venv/bin/activate  # Windows için: venv\Scripts\activate
+```
+
+### 4. Modeli Eğitme Script’ini Çalıştır
+```bash
+python word2vec_vektorlestirme.py
+```
+
 Tüm kütüphaneler requirements.txt dosyasında listelenmiştir.
 Kurulum:
 ```bash
