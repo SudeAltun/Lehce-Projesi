@@ -50,5 +50,6 @@ işlemi ayrı ayrı yapılacaktır.
 - numpy
 - matplotlib.pyplot
 - nltk
+- re
 
 
