@@ -19,12 +19,13 @@ Bu proje, bu tür eş anlamlı yerel kelimeleri otomatik olarak türkçe kullan�
 - **Word2Vec**: Kelimeleri vektör uzayında temsil etmek için kullanılır.
 - **TF-IDF**:Her bir temizlenmiş veri seti için TF-IDF vektörleştirme 
 işlemi ayrı ayrı yapılacaktır.
-- **Pre-Processing**:• Stop word removal (gereksiz/sık kullanılan kelimelerin çıkarılması) 
-• Tokenization (noktalama işaretlerinin kaldırılması dâhil) 
-• Lowercasing (kelimelerin küçük harfe dönüştürülmesi) 
-• Lemmatization 
-• Stemming 
--**Zipf Yasası**:Ham veriye ait Zipf yasasına göre log-log grafiği çizilir. 
+- **Pre-Processing**:
+   • Stop word removal (gereksiz/sık kullanılan kelimelerin çıkarılması) 
+   • Tokenization (noktalama işaretlerinin kaldırılması dâhil) 
+   • Lowercasing (kelimelerin küçük harfe dönüştürülmesi) 
+   • Lemmatization 
+   • Stemming 
+- **Zipf Yasası**:Ham veriye ait Zipf yasasına göre log-log grafiği çizilir. 
 
 ##  Adımlar
 
