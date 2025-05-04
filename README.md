@@ -72,7 +72,7 @@ source venv/bin/activate  # Windows için: venv\Scripts\activate
 
 ### 4. Modeli Eğitme Script’ini Çalıştır
 ```bash
-python word2vec_vektorlestirme.py
+python Word2Vec.py
 ```
 
 Tüm kütüphaneler requirements.txt dosyasında listelenmiştir.
