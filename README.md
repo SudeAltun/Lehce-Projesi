@@ -54,5 +54,9 @@ işlemi ayrı ayrı yapılacaktır.
 - collections
 - bs4
 
-
+Tüm kütüphaneler requirements.txt dosyasında listelenmiştir.
+Kurulum:
+```bash
+pip install -r requirements.txt
+```
 
