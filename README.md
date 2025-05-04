@@ -52,6 +52,7 @@ işlemi ayrı ayrı yapılacaktır.
 - nltk
 - re
 - collections
+- bs4
 
 
 
