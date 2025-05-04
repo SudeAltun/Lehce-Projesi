@@ -37,17 +37,18 @@ işlemi ayrı ayrı yapılacaktır.
    - Word2Vec modeli kullanılarak kelimeler sayısal vektörlere dönüştürülür.
    -TF-IDF modeli kullanılarak Her bir temizlenmiş veri seti için TF-IDF vektörleştirme 
 işlemi ayrı ayrı yapılacaktır.
+
 ## Kullanılan Kütüphaneler
--os
--pandas
--beautifulsoup4
--TurkishStemmer
+- os
+- pandas
+- beautifulsoup4
+- TurkishStemmer
 - json
 - fitz
 - sklearn
--gensim.models
--numpy
--matplotlib.pyplot
--nltk
+- gensim.models
+- numpy
+- matplotlib.pyplot
+- nltk
 
 
