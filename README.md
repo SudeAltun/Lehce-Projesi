@@ -8,29 +8,26 @@ Türkiye'de bölgesel olarak farklılık gösteren kelimeler, aynı anlamı taş
 
 - "Bakraç" (Doğu Anadolu) ↔ "Kova" (Batı Anadolu)
 
-Bu proje, bu tür eş anlamlı yerel kelimeleri otomatik olarak eşleştirebilecek bir model geliştirmeyi hedefler.
+Bu proje, bu tür eş anlamlı yerel kelimeleri otomatik olarak türkçe kullanımını gösteren bir model geliştirmeyi hedefler.
 
 ## 📚 Veri Kaynağı
 
-- **TDK Lehçe Sözlüğü**: Türkiye'nin çeşitli bölgelerindeki yerel kelimeleri ve bu kelimelerin anlamlarını içeren resmi bir kaynaktır.
+- Dergiler ve belediyelerin yayınlamış olduğu yöresel kelimeler
 
 ## 🧠 Kullanılan Yöntemler
 
 - **Word2Vec**: Kelimeleri vektör uzayında temsil etmek için kullanılır.
-- **Kosinüs Benzerliği**: Vektörler arası benzerliği ölçmek ve eşleştirme yapmak için kullanılır.
+- **TF-IDF**:Her bir temizlenmiş veri seti için TF-IDF vektörleştirme 
+işlemi ayrı ayrı yapılacaktır. 
 
 ## 🔧 Adımlar
 
 1. **Veri Hazırlama**:
-   - TDK Lehçe Sözlüğü'nden kelimeler ve anlamları toplanır.
+   - Bulunan 5 kaynaktan 
    - Temizleme ve ön işleme adımları uygulanır.
 
 2. **Vektörleştirme**:
    - Word2Vec modeli kullanılarak kelimeler sayısal vektörlere dönüştürülür.
-
-3. **Benzerlik Hesaplama**:
-   - Her bir yerel kelimenin, diğer kelimelerle olan kosinüs benzerliği hesaplanır.
-   - En yüksek benzerliğe sahip çiftler, eş anlamlı olarak eşleştirilir.
 
 ## 💻 Kullanım
 
@@ -40,3 +37,4 @@ pip install -r requirements.txt
 
 # Modeli çalıştır
 python main.py
+
