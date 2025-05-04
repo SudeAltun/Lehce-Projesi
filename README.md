@@ -24,7 +24,7 @@ işlemi ayrı ayrı yapılacaktır.
 • Lowercasing (kelimelerin küçük harfe dönüştürülmesi) 
 • Lemmatization 
 • Stemming 
--**Zipf Yasası**:• Ham veriye ait Zipf yasasına göre log-log grafiği çizilir. 
+-**Zipf Yasası**:Ham veriye ait Zipf yasasına göre log-log grafiği çizilir. 
 
 ##  Adımlar
 
@@ -36,7 +36,7 @@ işlemi ayrı ayrı yapılacaktır.
    - Word2Vec modeli kullanılarak kelimeler sayısal vektörlere dönüştürülür.
    -TF-IDF modeli kullanılarak Her bir temizlenmiş veri seti için TF-IDF vektörleştirme 
 işlemi ayrı ayrı yapılacaktır.
-##Kullanılan Kütüphaneler
+## Kullanılan Kütüphaneler
 -os
 -pandas
 -beautifulsoup4
