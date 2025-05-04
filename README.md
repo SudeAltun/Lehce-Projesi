@@ -19,7 +19,7 @@ Bu proje, bu tür eş anlamlı yerel kelimeleri otomatik olarak türkçe kullan�
 - **Word2Vec**: Kelimeleri vektör uzayında temsil etmek için kullanılır.
 - **TF-IDF**:Her bir temizlenmiş veri seti için TF-IDF vektörleştirme 
 işlemi ayrı ayrı yapılacaktır.
--**Pre-Processing**:• Stop word removal (gereksiz/sık kullanılan kelimelerin çıkarılması) 
+- **Pre-Processing**:• Stop word removal (gereksiz/sık kullanılan kelimelerin çıkarılması) 
 • Tokenization (noktalama işaretlerinin kaldırılması dâhil) 
 • Lowercasing (kelimelerin küçük harfe dönüştürülmesi) 
 • Lemmatization 
