@@ -1,0 +1,13 @@
+os
+pandas
+beautifulsoup4
+TurkishStemmer
+json
+fitz
+sklearn
+gensim
+numpy
+matplotlib
+nltk
+re
+collections
