@@ -1,5 +1,6 @@
 import re
 import json
+import fitz
 
 def extract_words_to_json(pdf_path, json_output_path):
     doc = fitz.open(pdf_path)
@@ -21,4 +22,4 @@ def extract_words_to_json(pdf_path, json_output_path):
     print(f"{len(words_list)} kelime başarıyla {json_output_path} dosyasına kaydedildi.")
 
 # Kullanım
-extract_words_to_json("Ci
+extract_words_to_json("Cice.pdf", "birlesik_sozluk.json")
